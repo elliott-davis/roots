@@ -18,6 +18,7 @@ function roots_setup() {
   // http://codex.wordpress.org/Function_Reference/set_post_thumbnail_size
   // http://codex.wordpress.org/Function_Reference/add_image_size
   add_theme_support('post-thumbnails');
+  add_image_size( 'featured', 320, 480, true );
 
   // Add post formats
   // http://codex.wordpress.org/Post_Formats
@@ -37,8 +38,17 @@ add_action('after_setup_theme', 'roots_setup');
  */
 function roots_widgets_init() {
   register_sidebar(array(
-    'name'          => __('Primary', 'roots'),
-    'id'            => 'sidebar-primary',
+    'name'          => __('Sidebar Left', 'roots'),
+    'id'            => 'sidebar-left',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
+    'name'          => __('Sidebar Right', 'roots'),
+    'id'            => 'sidebar-right',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h3>',
@@ -52,6 +62,12 @@ function roots_widgets_init() {
     'after_widget'  => '</section>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>',
+  ));
+  register_sidebar(array(
+    'name'          => __('Featured', 'roots'),
+    'id'            => 'sidebar-featured',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
   ));
 }
 add_action('widgets_init', 'roots_widgets_init');

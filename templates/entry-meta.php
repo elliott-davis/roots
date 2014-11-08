@@ -1,2 +1,5 @@
-<time class="updated" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date(); ?></time>
-<p class="byline author vcard"><?php echo __('By', 'roots'); ?> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="fn"><?php echo get_the_author(); ?></a></p>
+<div class="postmeta">
+  <?php if(get_post_meta($post->ID, 'cat1', true)):  ?><span class='fa fa-star'><?php echo get_post_meta($post->ID, 'cat1', true); ?></span><?php endif; ?>
+  <?php if(get_post_meta($post->ID, 'cat2', true)):  ?><span class='cat2'><?php echo get_post_meta($post->ID, 'cat2', true); ?></span><?php endif; ?>
+  <?php if(get_post_meta($post->ID, 'cat3', true)):  ?><span class='cat3'><?php echo get_post_meta($post->ID, 'cat3', true); ?></span><?php endif; ?>
+</div>
