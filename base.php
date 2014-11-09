@@ -18,11 +18,11 @@
 <?php endif; ?>
   <div class="wrap container" role="document">
     <div class="content row">
-      <main class="main" role="main">
+      <main class="col-lg-8 col-sm-9" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
-        <aside class="sidebar" role="complementary">
+        <aside class="col-lg-4 col-sm-3" role="complementary">
           <?php include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
       <?php endif; ?>

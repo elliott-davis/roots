@@ -12,7 +12,7 @@
   </div>
 <?php endif; ?>
 
-<div class="featuredposts">
+<div class="featuredposts row">
 
   <?php if ($upw_query->have_posts()) : ?>
 
@@ -20,11 +20,11 @@
 
         <?php $current_post = ($post->ID == $current_post_id && is_single()) ? 'active' : ''; ?>
 
-        <div class='teaser-post'>
+        <div class='teaser-post col-xs-4'>
           <div class="post-thumb">
             <a href="<?php the_permalink(); ?>" rel="bookmark">
               <?php the_post_thumbnail($instance['thumb_size']); ?>
-              <div class="caption">
+              <div class="caption hidden-xs">
                 <h3 class="posttitle">
                   <?php the_title(); ?>
                 </h3>
@@ -37,7 +37,6 @@
         </div>
 
       <?php endwhile; ?>
-
   <?php else : ?>
 
     <p class="upw-not-found">

@@ -12,6 +12,9 @@ function roots_setup() {
   register_nav_menus(array(
     'primary_navigation' => __('Primary Navigation', 'roots')
   ));
+  register_nav_menus(array(
+    'footer_navigation' => __('Footer Navigation', 'roots')
+  ));
 
   // Add post thumbnails
   // http://codex.wordpress.org/Post_Thumbnails
@@ -38,6 +41,15 @@ add_action('after_setup_theme', 'roots_setup');
  */
 function roots_widgets_init() {
   register_sidebar(array(
+    'name'          => __('Sidebar Top', 'roots'),
+    'id'            => 'sidebar-top',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
     'name'          => __('Sidebar Left', 'roots'),
     'id'            => 'sidebar-left',
     'before_widget' => '<section class="widget %1$s %2$s">',
@@ -56,13 +68,14 @@ function roots_widgets_init() {
   ));
 
   register_sidebar(array(
-    'name'          => __('Footer', 'roots'),
-    'id'            => 'sidebar-footer',
+    'name'          => __('Sidebar Bottom', 'roots'),
+    'id'            => 'sidebar-bottom',
     'before_widget' => '<section class="widget %1$s %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>',
   ));
+
   register_sidebar(array(
     'name'          => __('Featured', 'roots'),
     'id'            => 'sidebar-featured',

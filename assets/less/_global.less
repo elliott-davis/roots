@@ -13,7 +13,8 @@ dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, fig
 	padding: 0;
 	border: 0;
 	outline: 0;
-	background: transparent; }
+	background: transparent;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block; }
@@ -103,7 +104,7 @@ a  {
 	transition: all .2s ease-in-out }
 a:link, a:visited, a:active          {
 	color: #224578;
-	text-decoration: underline }
+	text-decoration: none }
 a:hover             {
 	color: #5676A5;
 	text-decoration: none }
@@ -235,7 +236,10 @@ h2.pagetitle, h2.archivetitle, h2.searchtitle  {
 	clear: right;
 	min-width: 300px;
 	z-index: 10; }
-.topsidebar   { }
+.sidebar-top .textwidget img {
+	display: block;
+	margin: auto;
+}
 .leftsidebar         {
 	margin: 0;
 	float: left;
@@ -873,10 +877,10 @@ display: inline-block;
 	margin-bottom: 40px;
 }
 .teaser-post {
-	width: 48.5%;
-	margin-right: 3%;
-	margin-bottom: 40px;
-	float: left;
+//	width: 48.5%;
+//	margin-right: 3%;
+//	margin-bottom: 40px;
+//	float: left;
 }
 .teaser-post img {
 	width: 100% !important;
@@ -905,13 +909,18 @@ display: inline-block;
 .teaser-post .post-thumb a:hover .caption {
 	background-color: #ffffff;
 }
+.featuredposts .teaser-post:nth-of-type(2n+1) {
+	clear:none;
+}
 
 .teaser-post:nth-of-type(2n) {
 	margin-right: 0;
 }
+
 .teaser-post:nth-of-type(2n+1) {
 	clear: both;
 }
+
 .teaser-post h3.posttitle {
 	text-align: center;
 	margin: 0 0 2px;
@@ -958,6 +967,7 @@ a.more-link:hover {
 	overflow: visible;
 	position: relative;
 }
+/*
 .homepagesection {
 	overflow: hidden;
 	width: 100%;
@@ -977,7 +987,7 @@ a.more-link:hover {
 .homepagesection .teaser-post:nth-of-type(2n+1) {
 	clear: none;
 }
-
+*/
 /* ===================== LOADER STYLES ==========================*/
 div.loader-wrap{
 	position: absolute;
@@ -1098,6 +1108,7 @@ ul.tabs-menu li.selected a:after {
 .tabs-content-inner{
 	overflow: hidden;
 	position:relative;
+  height: auto !important;
 }
 .tabarea {
 	overflow: hidden;
@@ -1514,23 +1525,18 @@ h2.archivetitle, h2.pagetitle     {
 	font-weight: normal;
 	margin-right: 5px;
 }
-.footerwidget.recipes h3.widgettitle a:before { content: '\e809'; } /* '' */
-.footerwidget.life h3.widgettitle a:before { content: '\e80a'; } /* '' */
-.footerwidget.diy h3.widgettitle a:before { content: '\e80f'; } /* '' */
 
-.subfooter {
-	border-top: 4px double #d6d6d6;
+.content-info {
+	border-top: 1px solid #d6d6d6;
 	font-size: 11px;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: .08em;
 	width: 100%;
 	overflow: hidden;
-}
-.subfooter .wrap {
-	overflow: hidden;
 	padding: 16px 20px;
 }
+
 .footernav       {
 	display: inline-block;
 	float: left;
@@ -1884,8 +1890,9 @@ a.commentnumber {
 
 
 /*----Main Menu----*/
-#mobilenav {
-	display: none;
+#menu-home {
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
 }
 .nav {
 	position:relative;
@@ -2162,77 +2169,22 @@ a.commentnumber {
   background-color: #ffffff;
 	border: none;
 }
-/*----PAGE NUMBERS----*/
-#wp_page_numbers     {
-	font-size: 12px;
-	font-family: "brandon-grotesque", Arial, Helvetica, Geneva, sans-serif;
-	line-height: 15px;
-	margin: 20px 0;
-	padding: 10px 0 0;
-	width: 100%;
-	clear: both;
-	overflow: hidden;
-	border-top: 4px double #d6d6d6; }
-.searchnavigation #wp_page_numbers {
-	margin-top: 35px }
-.searchnavigation-top #wp_page_numbers {
-	margin-top: 25px;
-	margin-bottom: 20px }
-#wp_page_numbers ul {
-	text-align: right;
-	width: 100% }
-#wp_page_numbers li {
-	margin: 0 0 0 2px;
-	display: inline }
-#wp_page_numbers ul li:before {
-	display: none !important;
-}
-#wp_page_numbers a         {
-	color: #848484;
-	padding: 5px 8px;
-	font-weight: 500;
-	display: inline-block;
-	background-color: #ffffff;
-	text-decoration: none; }
-#wp_page_numbers li.space       {
-	color: #848484;
-	padding: 3px 5px }
-#wp_page_numbers li.first_last_page {
-	 }
-#wp_page_numbers li.page_info         {
-	color: #848484;
-	font-size: 10px;
-	font-family: "brandon-grotesque", Arial, Helvetica, Geneva, sans-serif;
-	text-transform: uppercase;
-	font-weight: 500;
-	letter-spacing: .05em;
-	padding-top: 3px;
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 3px }
-#wp_page_numbers li a:hover         {
-	color: #fff;
-	background-color: #5676A5 }
-#wp_page_numbers li.active_page a     {
-	border: none;
-	color: #323232;
-	font-weight: bold;
-	background-color: #ffffff }
-#wp_page_numbers li.active_page a:hover      {
-	cursor: auto; }
 
+.pagination {}
 
-/* ---- FONTELLO ---- */
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?42633039#fontello') format('svg');
-  }
+.pagination .page-numbers {
+	padding: 5px;
 }
-*/
+
+.pagination span.current {
+	color:#fff;
+	background-color:#224578;
+}
+
+.pagination a.page-numbers:hover {
+	color:#fff;
+	background-color:#5676A5;
+}
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";

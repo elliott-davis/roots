@@ -12,8 +12,7 @@
 <?php endwhile; ?>
 
 <?php if ($wp_query->max_num_pages > 1) : ?>
-  <div>
-    <span class="pull-left"><?php echo '(Page '.$page.' of '.$numpages.')'; ?></span>
-    <span class="pull-right"><?php echo paginate_links(); ?></span>
+  <div class="pagination pull-right">
+    <?php echo paginate_links( $args ); ?>
   </div>
 <?php endif; ?>
