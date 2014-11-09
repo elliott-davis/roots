@@ -8980,7 +8980,7 @@ a.more-link:hover {
   padding: 20px 0 0 0;
 }
 .jumbotron .widget {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 .jumbotron .wrapper {
   overflow: visible;
