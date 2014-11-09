@@ -8293,10 +8293,15 @@ h3.widgettitle {
   float: right;
 }
 .subscribe {
-  background-image: url(images/bg.png);
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #ffffff), color-stop(0.25, #ffffff), color-stop(0.25, #fcfcfc), color-stop(0.5, #fcfcfc), color-stop(0.5, #ffffff), color-stop(0.75, #ffffff), color-stop(0.75, #fcfcfc));
+  background-image: -webkit-linear-gradient(left bottom, #ffffff 0%, #ffffff 25%, #fcfcfc 25%, #fcfcfc 50%, #ffffff 50%, #ffffff 75%, #fcfcfc 75%);
+  background-image: -o-linear-gradient(left bottom, #ffffff 0%, #ffffff 25%, #fcfcfc 25%, #fcfcfc 50%, #ffffff 50%, #ffffff 75%, #fcfcfc 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#bbbbbb', GradientType=0);
+  -webkit-background-size: 30px 30px;
+          background-size: 30px 30px;
   padding: 20px 10px;
-  border-top: 4px double #d6d6d6;
-  border-bottom: 4px double #d6d6d6;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
   margin-bottom: 40px;
 }
 .subscribe h3.widgettitle {
@@ -8345,15 +8350,14 @@ h3.widgettitle {
 .emailsubmit:hover {
   color: #5676A5;
 }
-.sidebar .social {
+.subscribe .social {
   text-align: center;
-  margin: 25px 0 -37px;
 }
-.sidebar .social a {
+.subscribe .social a {
   display: inline-block;
   margin: 0;
 }
-.sidebar .social a:before {
+.subscribe .social a:before {
   font-family: "fontello";
   font-size: 28px;
   display: inline-block;
@@ -8362,8 +8366,8 @@ h3.widgettitle {
   margin: 0px 1px 0 0;
   background-color: #ffffff;
 }
-.sidebar .social a:hover:before {
-  color: #707070;
+.subscribe .social a:hover:before {
+  color: #5676A5;
 }
 .recentposts h3 {
   display: none;
@@ -8903,6 +8907,7 @@ recipe .postmeta .cat4 {
 .teaser-post img {
   width: 100% !important;
   height: auto;
+  max-height: 504px;
 }
 .teaser-post .post-thumb {
   width: 100%;
@@ -8972,7 +8977,10 @@ a.more-link:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#bbbbbb', GradientType=0);
   -webkit-background-size: 30px 30px;
           background-size: 30px 30px;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
+}
+.jumbotron .widget {
+  margin: 20px;
 }
 .jumbotron .wrapper {
   overflow: visible;
@@ -9466,7 +9474,12 @@ a.submitbutton {
   color: #5676a5;
 }
 .footerpopular {
-  background-image: url(images/bg.png);
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #ffffff), color-stop(0.25, #ffffff), color-stop(0.25, #fcfcfc), color-stop(0.5, #fcfcfc), color-stop(0.5, #ffffff), color-stop(0.75, #ffffff), color-stop(0.75, #fcfcfc));
+  background-image: -webkit-linear-gradient(left bottom, #ffffff 0%, #ffffff 25%, #fcfcfc 25%, #fcfcfc 50%, #ffffff 50%, #ffffff 75%, #fcfcfc 75%);
+  background-image: -o-linear-gradient(left bottom, #ffffff 0%, #ffffff 25%, #fcfcfc 25%, #fcfcfc 50%, #ffffff 50%, #ffffff 75%, #fcfcfc 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#bbbbbb', GradientType=0);
+  -webkit-background-size: 30px 30px;
+          background-size: 30px 30px;
   margin-bottom: 30px;
   padding: 10px 0;
 }
