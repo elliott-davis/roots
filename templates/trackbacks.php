@@ -4,14 +4,13 @@
   }
 ?>
 
-<section id="comments" class="comments">
+<section id="trackbacks" class="trackbacks">
   <?php if (have_comments()) : ?>
-    <div>
-      <h2><?php printf(_nx('One response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'roots'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>'); ?></h2>
-    </div>
-    <div class="comment-list container">
-      <?php wp_list_comments(array('type'=>'comment', 'avatar_size'=>'128', 'style' => 'div', 'short_ping' => true, 'callback' => 'roots_comment')); ?>
-    </div>
+    <h2>Trackbacks & Pingbacks</h2>
+
+    <ol class="trackback-list">
+      <?php wp_list_comments(array('type'=> 'pings', 'style' => 'li', 'callback' => 'roots_comment')); ?>
+    </ol>
 
     <?php if (get_comment_pages_count() > 1 && get_option('page_comments')) : ?>
       <nav>
@@ -32,6 +31,5 @@
       <?php _e('Comments are closed.', 'roots'); ?>
     </div>
   <?php endif; ?>
-
-  <?php comment_form(); ?>
+  ASDF
 </section>

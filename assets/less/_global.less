@@ -261,6 +261,10 @@ h3.widgettitle    {
 .widget p    {
 	margin: 0 0 10px }
 
+.widget_hat_widget {
+	margin-bottom:0;
+}
+
 .sidebar select     {
 	font-size: 11px;
 	font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
@@ -287,19 +291,7 @@ h3.widgettitle    {
 	margin: 3px 0 0 10px;
 	float: right;
 }
-.subscribe {
-  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #fff), color-stop(0.25, #fff), color-stop(0.25, #fcfcfc), color-stop(0.5, #fcfcfc), color-stop(0.5, #fff), color-stop(0.75, #fff), color-stop(0.75, #fcfcfc));
-	background-image: -webkit-linear-gradient(left bottom, #fff 0%, #fff 25%, #FcFcFc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
-	background-image: -moz-linear-gradient(left bottom, #fff 0%, #fff 25%, #fcfcfc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
-	background-image: -ms-linear-gradient(left bottom, #fff 0%, #fff 25%, #fcfcfc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
-	background-image: -o-linear-gradient(left bottom, #fff 0%, #fff 25%, #fcfcfc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#bbbbbb',GradientType=0 );
-	background-size: 30px 30px;
-	padding: 20px 10px;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
-	margin-bottom: 40px;
-}
+
 .subscribe h3.widgettitle {
 	text-align: center;
 }
@@ -943,7 +935,7 @@ a.more-link:hover {
 }
 
 /*----Homepage Featured Styles----*/
-.jumbotron {
+.standout {
 	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #fff), color-stop(0.25, #fff), color-stop(0.25, #fcfcfc), color-stop(0.5, #fcfcfc), color-stop(0.5, #fff), color-stop(0.75, #fff), color-stop(0.75, #fcfcfc));
 	background-image: -webkit-linear-gradient(left bottom, #fff 0%, #fff 25%, #FcFcFc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
 	background-image: -moz-linear-gradient(left bottom, #fff 0%, #fff 25%, #fcfcfc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
@@ -951,11 +943,9 @@ a.more-link:hover {
   background-image: -o-linear-gradient(left bottom, #fff 0%, #fff 25%, #fcfcfc 25%, #fcfcfc 50%, #fff 50%, #fff 75%, #fcfcfc 75%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#bbbbbb',GradientType=0 );
   background-size: 30px 30px;
-	padding: 20px 0 0 0;
-}
-
-.jumbotron .widget {
-	margin-bottom: 20px;
+	padding: 20px 0 20px 0;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 
 .jumbotron .wrapper {
@@ -1108,13 +1098,14 @@ ul.tabs-menu li.selected a:after {
 .tabarea {
 	overflow: hidden;
 }
+/*
 div.parent {
 	display:none;
 }
+*/
 div.show {
 	display:block;
 }
-
 
 /*----Archive Post Styles----*/
 .relatedposts {
@@ -1292,6 +1283,14 @@ h2.archivetitle, h2.pagetitle     {
 	    }
 #submit:hover, .submitbutton:hover        {
 	background-color: #5676A5 }
+
+.bypostauthor{
+	background-color: rgba(255,255,255,0);
+	background-image: -webkit-linear-gradient(left,rgba(255,255,255,0),rgba(86,118,165,0.15));
+	background-image: -webkit-gradient(linear,0 50%,100% 50%,color-stop(0,rgba(255,255,255,0)),color-stop(100%,rgba(86,118,165,0.15)));
+	background-image: linear-gradient(left,rgba(255,255,255,0),rgba(86,118,165,0.15));
+	opacity: 1;
+}
 .commentinput, .styledinput, .captchainput            {
 	color: #707070;
 	font-size: 13px;
@@ -1891,10 +1890,6 @@ a.commentnumber {
 
 
 /*----Main Menu----*/
-#menu-home {
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
-}
 .nav {
 	position:relative;
 	display:inline-block;
@@ -1907,7 +1902,7 @@ a.commentnumber {
 	z-index: 1000;
 	overflow: visible;
 	z-index: 1000;
-	margin-top: 25px;
+	margin-top: 42px;
 }
 .nav-list {
 	text-align:left;

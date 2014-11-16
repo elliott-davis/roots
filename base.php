@@ -12,7 +12,7 @@
     get_template_part('templates/header');
   ?>
   <?php if( is_front_page() ): ?>
-  <div class="jumbotron">
+  <div class="jumbotron standout">
     <div class="container"> <?php dynamic_sidebar( 'sidebar-featured' ); ?> </div>
   </div>
 <?php endif; ?>
