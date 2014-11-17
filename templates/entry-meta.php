@@ -1,5 +1,4 @@
-<div class="postmeta">
-  <?php if(get_post_meta($post->ID, 'cat1', true)):  ?><span class='fa fa-star'><?php echo get_post_meta($post->ID, 'cat1', true); ?></span><?php endif; ?>
-  <?php if(get_post_meta($post->ID, 'cat2', true)):  ?><span class='cat2'><?php echo get_post_meta($post->ID, 'cat2', true); ?></span><?php endif; ?>
-  <?php if(get_post_meta($post->ID, 'cat3', true)):  ?><span class='cat3'><?php echo get_post_meta($post->ID, 'cat3', true); ?></span><?php endif; ?>
-</div>
+<p>
+  <i class="fa fa-clock-o"></i><time class="updated" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date(); ?></time>
+  <i class="fa fa-star"></i><?php the_category(', '); ?>
+</p>

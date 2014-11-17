@@ -8398,27 +8398,27 @@ h3.widgettitle {
   padding-bottom: 45px;
   margin-bottom: 55px;
 }
-h2.posttitle {
+h2.entry-title {
   font-size: 26px;
   text-align: center;
   margin: 9px 0;
 }
-h2.posttitle:after {
+h2.entry-title:after {
   content: "";
   display: block;
-  border-bottom: 4px double #d6d6d6;
   margin-top: -17px;
   margin-bottom: 18px;
 }
-h2.posttitle span {
+h2.entry-title span {
   background-color: #ffffff;
   padding: 0px 15px;
+  font-weight: bold;
 }
-h2.posttitle a {
+h2.entry-title a {
   color: #323232;
   text-decoration: none;
 }
-h2.posttitle a:hover {
+h2.entry-title a:hover {
   color: #5676a5;
 }
 .postmeta {
@@ -10262,9 +10262,16 @@ a.commentnumber {
     width: 100%;
   }
 }
+.single .navbar {
+  margin-bottom: 50px;
+}
+.navbar {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
 .navbar-default {
   background-color: #ffffff;
-  border: none;
 }
 .navbar-default .navbar-brand {
   max-width: 75%;

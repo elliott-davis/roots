@@ -29,7 +29,7 @@
                   <?php the_title(); ?>
                 </h3>
                 <div class="postmeta">
-                  <?php get_template_part('templates/entry-meta'); ?>
+                  <?php get_template_part('templates/featured-meta'); ?>
                 </div>
               </div>
             </a>
