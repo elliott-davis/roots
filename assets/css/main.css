@@ -8091,7 +8091,7 @@ h3,
 h4,
 h5 {
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: .08em;
@@ -8099,15 +8099,15 @@ h5 {
   margin-bottom: 15px;
 }
 h1 {
-  color: #323232;
+  color: #333;
   font-size: 18px;
 }
 h2 {
-  color: #323232;
+  color: #333;
   font-size: 18px;
 }
 h3 {
-  color: #323232;
+  color: #333;
   font-size: 16px;
 }
 h3.divider {
@@ -8116,11 +8116,11 @@ h3.divider {
   border-bottom: 1px solid #d6d6d6;
 }
 h4 {
-  color: #323232;
+  color: #333;
   font-size: 16px;
 }
 h5 {
-  color: #323232;
+  color: #333;
   font-size: 12px;
 }
 .clear {
@@ -8206,7 +8206,7 @@ h2.searchtitle {
 }
 .span_content strong {
   font-weight: bold;
-  color: #323232;
+  color: #333;
 }
 .sep {
   background: url("images/sep.png") no-repeat;
@@ -8261,11 +8261,11 @@ h3.widgettitle {
 .widget a:link,
 .widget a:visited,
 .widget a:active {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 .widget a:hover {
-  color: #5676A5;
+  color: #fff;
   text-decoration: none;
 }
 .widget p {
@@ -8284,19 +8284,6 @@ h3.widgettitle {
   background-color: #ffffff;
   border: 1px solid #e5e6e6;
 }
-.about img {
-  float: right;
-  margin-top: -20px;
-  margin-left: 5px;
-}
-.about a {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 12px;
-  margin-left: 15px;
-  margin: 3px 0 0 10px;
-  float: right;
-}
 .subscribe h3.widgettitle {
   text-align: center;
 }
@@ -8311,7 +8298,7 @@ h3.widgettitle {
   border: none;
   font-size: 13px;
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
-  color: #323232;
+  color: #333;
   background-color: #ffffff;
   margin: 0px;
   padding: 0px 10px;
@@ -8324,7 +8311,7 @@ h3.widgettitle {
 .emailsubmit {
   width: 20%;
   text-align: right;
-  color: #323232;
+  color: #333;
   background-color: #ffffff;
   border: none;
   margin: 0 0 0 -4px;
@@ -8354,7 +8341,7 @@ h3.widgettitle {
   font-family: "fontello";
   font-size: 28px;
   display: inline-block;
-  color: #323232;
+  color: #333;
   text-decoration: none;
   margin: 0px 1px 0 0;
   background-color: #ffffff;
@@ -8401,7 +8388,7 @@ h3.widgettitle {
 h2.entry-title {
   font-size: 26px;
   text-align: center;
-  margin: 9px 0;
+  margin-bottom: 20px;
 }
 h2.entry-title:after {
   content: "";
@@ -8415,7 +8402,7 @@ h2.entry-title span {
   font-weight: bold;
 }
 h2.entry-title a {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 h2.entry-title a:hover {
@@ -8447,7 +8434,7 @@ h2.entry-title a:hover {
 .postmeta a:hover,
 .edit a:hover,
 .metabottom a:hover {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 .postmeta span:before {
@@ -8469,7 +8456,7 @@ h2.entry-title a:hover {
   content: '\e809';
 }
 .postmeta .ccount:before {
-  color: #323232;
+  color: #333;
   font-size: 9px;
   content: '\e802';
 }
@@ -8505,7 +8492,7 @@ a.comment-edit-link {
 a.post-edit-link:hover,
 a.comment-edit-link:hover {
   color: #fff;
-  background-color: #323232;
+  background-color: #333333;
 }
 .post img {
   max-width: 660px;
@@ -8556,7 +8543,7 @@ a.comment-edit-link:hover {
 /*Recipe Styles*/
 .recipe,
 .zlrecipe {
-  color: #323232;
+  color: #333;
   font-style: normal;
   font-weight: normal !important;
   margin: 35px 0 35px;
@@ -8578,7 +8565,7 @@ a.comment-edit-link:hover {
   margin: 0px 0 7px;
 }
 .recipe h3 {
-  color: #323232;
+  color: #333;
   margin: 0 0 13px;
   clear: left;
 }
@@ -8612,25 +8599,25 @@ a.comment-edit-link:hover {
   margin-bottom: 10px;
 }
 .recipe .postmeta span:before {
-  color: #323232;
+  color: #333;
 }
 .recipe .postmeta span:first-of-type:before {
   margin-left: 0;
 }
 .recipe .time .cat1:before {
-  color: #323232;
+  color: #333;
   content: '\e810';
 }
 .recipe .time .cat2:before {
-  color: #323232;
+  color: #333;
   content: '\e810';
 }
 .recipe .time .cat3:before {
-  color: #323232;
+  color: #333;
   content: '\e810';
 }
 .recipe .postmeta .cat4:before {
-  color: #323232;
+  color: #333;
   content: '\e80A';
 }
 recipe .postmeta .cat4 {
@@ -8707,11 +8694,11 @@ recipe .postmeta .cat4 {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  color: #323232;
+  color: #333;
   margin: 0px 5px;
 }
 .printbutton a:before {
-  color: #323232;
+  color: #333;
   font-size: 18px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -8817,7 +8804,7 @@ recipe .postmeta .cat4 {
   margin: 0;
 }
 #zlrecipe-title {
-  color: #323232;
+  color: #333;
   font-size: 18px;
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
   font-weight: 700;
@@ -8875,7 +8862,7 @@ recipe .postmeta .cat4 {
   margin-right: 20px;
 }
 .authorbox h4 {
-  color: #323232;
+  color: #333;
   margin: 0 0 3px;
 }
 .authorbox p {
@@ -8937,7 +8924,7 @@ recipe .postmeta .cat4 {
 .teaser-post h3.posttitle {
   text-align: center;
   margin: 0 0 2px;
-  color: #323232;
+  color: #333;
 }
 .teaser-post .postmeta {
   text-align: center;
@@ -8953,7 +8940,7 @@ recipe .postmeta .cat4 {
 }
 a.more-link {
   display: inline-block;
-  color: #323232;
+  color: #333;
   font-weight: 700;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -9025,6 +9012,9 @@ div.loader {
   padding-bottom: 45px;
   height: auto;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 select.tabs-menu {
   width: 100%;
   border: 0;
@@ -9077,13 +9067,13 @@ ul.tabs-menu li a:hover {
   background-color: #5676A5;
 }
 ul.tabs-menu li a:active {
-  background-color: #323232;
+  background-color: #333;
 }
 ul.tabs-menu li.selected a {
   background-color: none;
   cursor: default;
   text-decoration: none;
-  background-color: #323232;
+  background-color: #333;
   color: #ffffff;
 }
 ul.tabs-menu li.selected a:after {
@@ -9097,7 +9087,7 @@ ul.tabs-menu li.selected a:after {
   position: absolute;
   pointer-events: none;
   border-color: rgba(255, 255, 255, 0);
-  border-bottom-color: #323232;
+  border-bottom-color: #333;
   border-width: 10px;
   margin-left: -10px;
   margin-top: 0px;
@@ -9170,12 +9160,12 @@ h2.pagetitle {
   float: left;
 }
 .archiveslist ul li {
-  color: #323232;
+  color: #333;
   font-size: 11px;
   list-style-type: circle;
 }
 .archiveslist a:link {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 .archiveslist a:visited {
@@ -9217,7 +9207,7 @@ h2.pagetitle {
 .subcategories li ul li a {
   display: inline-block;
   color: #ffffff;
-  background-color: #323232;
+  background-color: #333;
   font-size: 12px;
   text-decoration: none;
   padding: 5px 15px;
@@ -9267,7 +9257,7 @@ h2.pagetitle {
 .tagindex a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #323232;
+  background-color: #333333;
 }
 .tagtitle {
   color: #707070;
@@ -9293,7 +9283,7 @@ h2.pagetitle {
   font-size: 11px;
 }
 .tagtitle a:hover {
-  color: #323232;
+  color: #333333;
 }
 /*----Forms----*/
 #submit,
@@ -9304,7 +9294,7 @@ a.submitbutton {
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
   font-weight: 700;
   line-height: 15px;
-  background-color: #323232;
+  background-color: #333;
   text-transform: uppercase;
   letter-spacing: .05em;
   cursor: pointer;
@@ -9344,7 +9334,7 @@ a.submitbutton {
 .commentinput:focus,
 .styledinput:focus,
 .captchainput:focus {
-  color: #323232;
+  color: #333333;
 }
 .commentinput {
   width: 100%;
@@ -9390,7 +9380,7 @@ a.submitbutton {
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
   font-weight: 700;
   line-height: 15px;
-  background-color: #323232;
+  background-color: #333;
   text-transform: uppercase;
   letter-spacing: .05em;
   cursor: pointer;
@@ -9413,7 +9403,7 @@ a.submitbutton {
 .span_content .searchinput {
   font-size: 14px;
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
-  color: #323232;
+  color: #333;
   background-color: #ffffff;
   border: none;
   margin: 0px;
@@ -9424,13 +9414,13 @@ a.submitbutton {
   vertical-align: top;
 }
 .span_content .searchinput:focus {
-  color: #323232;
+  color: #333;
   font-style: normal;
 }
 .span_content .searchsubmit {
   width: 20%;
   text-align: right;
-  color: #323232;
+  color: #333;
   background-color: #ffffff;
   border: none;
   margin: 0px 0 0 -4px;
@@ -9463,7 +9453,7 @@ a.submitbutton {
 .footer a:link,
 .footer a:visited,
 .footer a:active {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 .subfooter a:link,
@@ -9552,7 +9542,7 @@ a.submitbutton {
   /* For IE8 and earlier */
 }
 .footerwidget h3.widgettitle a {
-  color: #323232;
+  color: #333;
 }
 .footerwidget h3.widgettitle a span {
   font-style: italic;
@@ -9592,7 +9582,7 @@ a.submitbutton {
 }
 .footernav li.backtotop a {
   font-weight: bold;
-  color: #323232;
+  color: #333;
 }
 .copyright {
   display: inline-block;
@@ -9625,7 +9615,7 @@ h4#comments a {
   color: #707070;
 }
 h4#comments a:hover {
-  color: #323232;
+  color: #333;
 }
 #respond {
   margin-top: 35px;
@@ -9698,13 +9688,13 @@ a.commentnumber {
   color: #707070;
 }
 .commentmeta strong {
-  color: #323232;
+  color: #333;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
 }
 .commentmeta strong a {
-  color: #323232;
+  color: #333;
   text-decoration: none;
 }
 .commentmeta a:hover {
@@ -9776,14 +9766,14 @@ a.commentnumber {
   border-style: none;
 }
 .commentnav a:hover {
-  color: #323232;
+  color: #333;
 }
 .commentnav .alignright a {
   color: #707070;
   text-decoration: none;
 }
 .commentnav .alignright a:hover {
-  color: #323232;
+  color: #333;
   text-decoration: none;
   background-color: transparent;
 }
@@ -9811,7 +9801,7 @@ a.commentnumber {
 }
 #cancel_reply,
 #cancel_reply a {
-  color: #323232;
+  color: #333;
   font-size: 10px;
   text-transform: uppercase;
   font-weight: bold;
@@ -9828,7 +9818,7 @@ a.commentnumber {
 }
 .thdrpy a:hover {
   color: #fff;
-  background-color: #323232;
+  background-color: #333333;
 }
 /*----Top Menu----*/
 .topbar {
@@ -9838,7 +9828,7 @@ a.commentnumber {
   height: 50px;
   font-size: 11px;
   line-height: 50px;
-  color: #323232;
+  color: #333;
   font-weight: 500;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -9855,7 +9845,7 @@ a.commentnumber {
 .topbar .searchform .searchinput {
   font-size: 12px;
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
-  color: #323232;
+  color: #333;
   background-color: #ffffff;
   border: 1px solid #d6d6d6;
   margin: -7px 0 0 0;
@@ -9876,7 +9866,7 @@ a.commentnumber {
   text-transform: uppercase;
   letter-spacing: .08em;
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
-  color: #323232;
+  color: #333;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -9901,7 +9891,7 @@ a.commentnumber {
   font-family: "fontello";
   font-size: 21px;
   display: inline-block;
-  color: #323232;
+  color: #333;
   text-decoration: none;
   margin: 0px 1px 0 0;
 }
@@ -9922,7 +9912,7 @@ a.commentnumber {
   float: left;
 }
 .topbar ul.topnav li a {
-  color: #323232;
+  color: #333;
   text-decoration: none;
   padding: 0 12px 0 12px;
   float: left;
@@ -9933,7 +9923,7 @@ a.commentnumber {
 }
 .topbar .topnav li ul a:hover,
 .topbar ul li li:hover > a {
-  color: #323232;
+  color: #333;
 }
 .topbar .topnav li ul {
   background: #d6d6d6;
@@ -9953,7 +9943,7 @@ a.commentnumber {
   left: auto;
 }
 .topbar .topnav li ul li a {
-  color: #323232;
+  color: #333;
   height: 35px;
   line-height: 20px;
   padding: 7px 12px;
@@ -9963,7 +9953,7 @@ a.commentnumber {
 .topbar ul.topnav li li:hover > a,
 .topbar ul li li a:hover {
   color: #FFFFFF;
-  background-color: #323232;
+  background-color: #333333;
 }
 .topbar .topnav li li ul {
   visibility: hidden;
@@ -10008,7 +9998,7 @@ a.commentnumber {
 }
 .nav-list .menu-item a {
   display: block;
-  color: #323232;
+  color: #333;
   padding: 10px 20px 20px 20px;
   text-decoration: none;
   text-align: center;
@@ -10038,7 +10028,7 @@ a.commentnumber {
 .nav-list .menu-item > a:before {
   font-family: "fontello";
   display: block;
-  color: #323232;
+  color: #333;
   font-size: 14px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -10064,6 +10054,9 @@ a.commentnumber {
   content: '\e80a';
 }
 /* '' */
+.fa {
+  margin-right: 10px;
+}
 /* Navigation submenu */
 .nav-list .sub-menu {
   display: none;
@@ -10074,7 +10067,7 @@ a.commentnumber {
   width: 160px;
   font-size: 15px;
   z-index: 2000;
-  background: #323232;
+  background: #333;
 }
 .nav-list .sub-menu:after {
   bottom: 100%;
@@ -10086,7 +10079,7 @@ a.commentnumber {
   position: absolute;
   pointer-events: none;
   border-color: rgba(222, 66, 111, 0);
-  border-bottom-color: #323232;
+  border-bottom-color: #333;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -10128,7 +10121,7 @@ a.commentnumber {
   width: 200px;
   height: auto;
   text-align: right;
-  color: #323232;
+  color: #333;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 500;
@@ -10178,7 +10171,7 @@ a.commentnumber {
   }
   .nav-mobile:before {
     display: block;
-    color: #323232;
+    color: #333;
     float: right;
     font-family: "fontello";
     font-size: 16px;
@@ -10262,13 +10255,17 @@ a.commentnumber {
     width: 100%;
   }
 }
-.single .navbar {
+.single .navbar,
+.page .navbar {
   margin-bottom: 50px;
 }
 .navbar {
   margin-bottom: 0;
   padding-bottom: 5px;
   border-bottom: 1px solid #eee;
+}
+.home .navbar {
+  border-bottom: none;
 }
 .navbar-default {
   background-color: #ffffff;
@@ -10280,12 +10277,18 @@ a.commentnumber {
   max-width: 100%;
   height: auto;
 }
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #5676A5;
+}
 .pagination .page-numbers {
   padding: 5px;
 }
 .pagination span.current {
   color: #fff;
-  background-color: #224578;
+  background-color: #333;
 }
 .pagination a.page-numbers:hover {
   color: #fff;

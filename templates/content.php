@@ -13,7 +13,7 @@
   <div class="excerpt">
     <?php the_excerpt(); ?>
     <div class="more">
-      <a class="more-link" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Continue Reading...</a>
+      <a class="more-link" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Read More →</a>
     </div>
   </div>
 </article>
