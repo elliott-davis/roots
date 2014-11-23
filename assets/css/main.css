@@ -8388,7 +8388,7 @@ h3.widgettitle {
 h2.entry-title {
   font-size: 26px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 h2.entry-title:after {
   content: "";
@@ -10288,7 +10288,7 @@ a.commentnumber {
   line-height: 1.1;
   text-transform: uppercase;
   letter-spacing: .08em;
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
 }
 .navbar-default .navbar-nav > li > a:hover {
@@ -10402,6 +10402,50 @@ a.commentnumber {
   content: '\e812';
 }
 /* '' */
+/*----- EASY RECIPE OVERRIDES -------*/
+div.easyrecipe {
+  border: 1px solid #eee;
+  color: #707070;
+  font-size: .98em;
+  font-family: "open sans", sans-serif;
+  font-weight: lighter;
+  color: #333;
+  line-height: 1.4;
+  background: #ffffff;
+}
+.easyrecipe .ERSTopRight img {
+  border: none;
+}
+.easyrecipe .ERSName,
+.easyrecipe .ERSIngredients .ERSIngredientsHeader,
+.easyrecipe .ERSInstructions .ERSInstructionsHeader,
+.easyrecipe .nutrition .ERSNutritionHeader,
+.easyrecipe div .ERSNotesHeader {
+  font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.easyrecipe .ERSTimes {
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #ffffff), color-stop(0.25, #ffffff), color-stop(0.25, #fcfcfc), color-stop(0.5, #fcfcfc), color-stop(0.5, #ffffff), color-stop(0.75, #ffffff), color-stop(0.75, #fcfcfc));
+  background-image: -webkit-linear-gradient(left bottom, #ffffff 0%, #ffffff 25%, #fcfcfc 25%, #fcfcfc 50%, #ffffff 50%, #ffffff 75%, #fcfcfc 75%);
+  background-image: -o-linear-gradient(left bottom, #ffffff 0%, #ffffff 25%, #fcfcfc 25%, #fcfcfc 50%, #ffffff 50%, #ffffff 75%, #fcfcfc 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#bbbbbb', GradientType=0);
+  -webkit-background-size: 30px 30px;
+          background-size: 30px 30px;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.easyrecipe .ERSTimes .ERSTime {
+  padding-left: 5px;
+}
+.easyrecipe .ERSTimeRight {
+  border-left: none;
+}
 .gallery-row {
   padding: 10px 0;
 }
