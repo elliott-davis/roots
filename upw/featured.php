@@ -28,9 +28,6 @@
                 <h3 class="posttitle">
                   <?php the_title(); ?>
                 </h3>
-                <div class="postmeta">
-                  <?php get_template_part('templates/featured-meta'); ?>
-                </div>
               </div>
             </a>
           </div>
