@@ -22,6 +22,7 @@
 
         <div class='teaser-post col-xs-4'>
           <div class="post-thumb">
+            <?php get_template_part('templates/featured-meta'); ?>
             <a href="<?php the_permalink(); ?>" rel="bookmark">
               <?php the_post_thumbnail($instance['thumb_size']); ?>
               <div class="caption hidden-xs">

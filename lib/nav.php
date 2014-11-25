@@ -16,7 +16,7 @@ class Roots_Nav_Walker extends Walker_Nav_Menu {
   }
 
   function start_lvl(&$output, $depth = 0, $args = array()) {
-    $output .= "\n<ul class=\"dropdown-menu\">\n";
+    $output .= "\n<ul class=\"dropdown-menu animated fadeIn\">\n";
   }
 
   function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
