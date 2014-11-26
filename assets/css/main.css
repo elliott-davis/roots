@@ -14230,7 +14230,7 @@ a.commentnumber {
   float: right;
   overflow: visible;
   z-index: 1000;
-  margin-top: 42px;
+  margin-top: 25px;
 }
 .nav-list {
   text-align: left;
@@ -14519,10 +14519,15 @@ a.commentnumber {
 }
 .navbar-default .navbar-brand {
   max-width: 75%;
+  padding: 0;
 }
 .navbar-default .navbar-brand img {
   max-width: 100%;
   height: auto;
+  padding-top: 5px;
+}
+.navbar-default .navbar-nav li {
+  margin-left: 25px;
 }
 .navbar-default .navbar-nav > li > a {
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
@@ -14532,6 +14537,7 @@ a.commentnumber {
   letter-spacing: .08em;
   font-size: 16px;
   color: #333333;
+  padding: 10px 20px 20px 20px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
