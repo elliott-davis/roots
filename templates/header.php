@@ -1,6 +1,6 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
-    <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><img alt="Brand" src="/assets/img/logo.png"></a>
+    <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><span>That</span><span class="blue">Oven</span><span>Feelin&#146;</span></a>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
