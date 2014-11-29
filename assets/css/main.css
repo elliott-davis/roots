@@ -13124,14 +13124,13 @@ div.show {
   background-color: #ffffff;
 }
 .navbar-default .navbar-brand {
-  max-width: 75%;
-  padding: 0;
+  padding: 0 15px;
 }
 .navbar-brand span {
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
   font-weight: 400;
   line-height: 1.1;
-  font-size: 45px;
+  font-size: 2.4em;
   color: #333333;
 }
 .navbar-brand span.blue {
@@ -13139,15 +13138,12 @@ div.show {
   font-weight: 400;
   line-height: 1.1;
   color: #5676a5;
-  font-size: 65px;
+  font-size: 3.6em;
 }
 .navbar-default .navbar-brand img {
   max-width: 100%;
   height: auto;
   padding-top: 5px;
-}
-.navbar-default .navbar-nav li {
-  margin-left: 25px;
 }
 .navbar-default .navbar-nav > li > a {
   font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
@@ -13222,6 +13218,18 @@ div.easyrecipe {
 }
 .easyrecipe .ERSTimeRight {
   border-left: none;
+}
+/* Media Queries */
+@media (max-width: 767px) {
+  .navbar-brand span {
+    font-size: 6.5vw;
+  }
+  .navbar-brand span.blue {
+    font-size: 10vw;
+  }
+  .postmeta {
+    display: none;
+  }
 }
 .gallery-row {
   padding: 10px 0;

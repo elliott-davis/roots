@@ -1,7 +1,7 @@
 /* Reference Imports */
 
 @import (reference) '../vendor/animate.css/animate.min.css';
-
+@import (reference) '../vendor/bootstrap/less/bootstrap.less';
 /* Variables */
 
 @lightblue: #5676A5;
@@ -838,15 +838,16 @@ div.show {
 }
 
 .navbar-default .navbar-brand {
-	max-width:75%;
-	padding:0;
+//	max-width:75%;
+	padding:0 15px;
 }
 
-.navbar-brand span {
+
+.navbar-brand span{
 	font-family: "caviar-dreams", Arial, Helvetica, Geneva, sans-serif;
 	font-weight: 400;
 	line-height: 1.1;
-	font-size: 45px;
+	font-size: 2.4em;
 	color: @grey;
 }
 
@@ -855,17 +856,13 @@ div.show {
 	font-weight: 400;
 	line-height: 1.1;
 	color:@lightblue;
-	font-size:65px;
+	font-size:3.6em;
 }
 
 .navbar-default .navbar-brand img {
 	max-width: 100%;
   height: auto;
 	padding-top:5px;
-}
-
-.navbar-default .navbar-nav li {
-	margin-left:25px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -941,4 +938,17 @@ div.easyrecipe {
 
 .easyrecipe .ERSTimeRight {
 	border-left: none;
+}
+
+/* Media Queries */
+@media (max-width: @screen-xs-max) {
+	.navbar-brand span{
+		font-size: 6.5vw;
+	}
+	.navbar-brand span.blue {
+		font-size: 10vw;
+	}
+	.postmeta {
+		display:none;
+	}
 }
