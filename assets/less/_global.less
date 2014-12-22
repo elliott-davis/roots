@@ -7,6 +7,7 @@
 @lightblue: #5676A5;
 @blue: #224578;
 @grey: #333333;
+@green: #197462;
 
 @font-face {
 	font-family: 'caviar-dreams';
@@ -47,7 +48,7 @@ dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, fig
 	white-space: normal;
 	text-align: left;
 	margin: 0;
-	padding: 0;
+//	padding: 0;
 	border: 0;
 	outline: 0;
 	background: transparent;
@@ -56,7 +57,7 @@ dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, fig
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block; }
 
-ol, ul { list-style: none; }
+//ol, ul { list-style: none; }
 
 blockquote, q { quotes: none; }
 
@@ -88,7 +89,9 @@ a  {
 	transition: all .2s ease-in-out }
 a:link, a:visited, a:active          {
 	color: @blue;
-	text-decoration: none }
+	text-decoration: none;
+	font-weight: 400;
+	}
 a:hover             {
 	color: @lightblue;
 	text-decoration: none }
@@ -179,6 +182,11 @@ h5        {
 	width: auto;
 	height: auto;
 }
+
+.entry-content {
+	margin-top:30px;
+}
+
 h2.pagetitle, h2.archivetitle, h2.searchtitle  {
 	margin-top: 0 }
 
@@ -251,6 +259,11 @@ h3.widgettitle    {
 .subscribe h3.widgettitle {
 	text-align: center;
 }
+
+#cntctfrm_contact_form textarea {
+	border: 1px solid;
+}
+
 .emailform {
 	overflow: hidden;
 	background-color: #ffffff;
@@ -414,6 +427,10 @@ a.post-edit-link:hover {
 .post img {
 	max-width: 660px;
 	height: auto;
+	.make-xs-column(12);
+	float:none;
+	padding: 0;
+	width:auto;
 }
 
 .wp-caption {
@@ -439,7 +456,6 @@ a.post-edit-link:hover {
 .teaser-post img {
 	width: 100% !important;
 	height: auto;
-	max-height:504px;
 }
 .teaser-post .post-thumb {
 	width: 100%;
@@ -833,6 +849,11 @@ div.show {
 .home .navbar {
 	border-bottom:none;
 }
+
+.home .shareaholic-floated-share-buttons-container {
+	display:none;
+}
+
 .navbar-default {
   background-color: #ffffff;
 }
@@ -940,15 +961,23 @@ div.easyrecipe {
 	border-left: none;
 }
 
+/* General Style Overrides */
+.pin-it-btn-wrapper {
+	display:none;
+}
+
 /* Media Queries */
-@media (max-width: @screen-xs-max) {
+@media (max-width: @screen-sm-max) {
 	.navbar-brand span{
-		font-size: 6.5vw;
+		font-size: 3vh;
 	}
 	.navbar-brand span.blue {
-		font-size: 10vw;
+		font-size: 5vh;
 	}
 	.postmeta {
 		display:none;
+	}
+	.post img {
+		width: 100%;
 	}
 }
