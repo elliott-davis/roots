@@ -12876,9 +12876,6 @@ div.loader {
   padding-bottom: 45px;
   height: auto;
 }
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
